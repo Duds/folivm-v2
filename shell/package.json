@@ -1,0 +1,22 @@
+{
+  "name": "folivm-shell",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev":       "vite",
+    "build":     "tsc && vite build",
+    "typecheck": "tsc --noEmit",
+    "lint":      "eslint src/"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli":              "^2",
+    "@types/node":                   "^20",
+    "typescript":                    "^5",
+    "vite":                          "^5",
+    "vite-plugin-top-level-await":   "^1",
+    "vite-plugin-wasm":              "^3"
+  }
+}

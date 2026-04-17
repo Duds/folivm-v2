@@ -1,0 +1,33 @@
+/* tslint:disable */
+/* eslint-disable */
+export const __wbg_folviminstance_free: (a: number, b: number) => void;
+export const folviminstance_full_frame: (a: number) => any;
+export const folviminstance_load_document: (a: number, b: number, c: number) => [number, number, number];
+export const folviminstance_load_theme: (a: number, b: number, c: number) => [number, number];
+export const folviminstance_new: () => number;
+export const folviminstance_on_composition_end: (a: number, b: number, c: number) => any;
+export const folviminstance_on_composition_start: (a: number, b: number, c: number) => any;
+export const folviminstance_on_composition_update: (a: number, b: number, c: number) => any;
+export const folviminstance_on_keydown: (a: number, b: number, c: number, d: number) => any;
+export const folviminstance_on_mousedown: (a: number, b: number, c: number, d: number) => any;
+export const folviminstance_on_mousemove: (a: number, b: number, c: number, d: number) => any;
+export const folviminstance_on_mouseup: (a: number, b: number, c: number, d: number) => any;
+export const folviminstance_on_paste_fvm: (a: number, b: number, c: number) => any;
+export const folviminstance_on_paste_text: (a: number, b: number, c: number) => any;
+export const folviminstance_on_wheel: (a: number, b: number) => any;
+export const folviminstance_redo: (a: number) => any;
+export const folviminstance_register_font: (a: number, b: number, c: number, d: number, e: number, f: number) => void;
+export const folviminstance_serialise: (a: number) => [number, number];
+export const folviminstance_set_canvas_size: (a: number, b: number, c: number, d: number, e: number) => any;
+export const folviminstance_set_mode: (a: number, b: number, c: number) => any;
+export const folviminstance_set_theme_mode: (a: number, b: number, c: number, d: number, e: number) => any;
+export const folviminstance_undo: (a: number) => any;
+export const memory: WebAssembly.Memory;
+export const __wbindgen_exn_store: (a: number) => void;
+export const __externref_table_alloc: () => number;
+export const __wbindgen_externrefs: WebAssembly.Table;
+export const __wbindgen_malloc: (a: number, b: number) => number;
+export const __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
+export const __externref_table_dealloc: (a: number) => void;
+export const __wbindgen_free: (a: number, b: number, c: number) => void;
+export const __wbindgen_start: () => void;

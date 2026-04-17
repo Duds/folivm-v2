@@ -6,7 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project state
 
-Pre-implementation. The repository contains design documents only. No code exists yet. The next step is bootstrapping the Rust workspace and implementing `folivm-core`.
+Foundational. `folivm-core` (parser/model) and `folivm-native` (Tauri commands/extension host core) are implemented.
+Next step: Implementing the Deno Core integration and shell frontend.
 
 ---
 

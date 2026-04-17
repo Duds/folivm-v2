@@ -1,0 +1,17 @@
+# Rust
+/target/
+
+# Node / shell
+shell/node_modules/
+shell/shell/
+shell/node_modules/.vite/
+
+# WASM build output (optional; pkg/ is often committed for web)
+# crates/folivm-wasm/pkg/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo

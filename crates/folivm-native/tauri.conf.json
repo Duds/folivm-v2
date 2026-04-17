@@ -1,0 +1,27 @@
+{
+  "productName": "folivm",
+  "version": "0.1.0",
+  "identifier": "dev.folivm.app",
+  "build": {
+    "frontendDist": "../../shell/dist",
+    "devUrl": "http://localhost:1420"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "folivm",
+        "width": 1400,
+        "height": 900,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": []
+  }
+}

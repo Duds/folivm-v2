@@ -1,0 +1,26 @@
+[package]
+name    = "folivm-core"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["layout"]
+# Gates cosmic-text. Disable for pure model/parse tests that don't need layout.
+# On WASM, callers must call register_font() with raw bytes before any layout
+# call — system font discovery is never attempted.
+layout = ["dep:cosmic-text"]
+
+[dependencies]
+serde          = { workspace = true }
+serde_json     = { workspace = true }
+serde_yaml     = { workspace = true }
+uuid           = { workspace = true }
+postcard       = { workspace = true }
+anyhow         = { workspace = true }
+thiserror      = { workspace = true }
+pulldown-cmark = { workspace = true }
+# cosmic-text supports wasm32 when fonts are loaded manually (not via fontdb
+# system scanning). Both WASM and native load the same font bytes — this is
+# the mechanism that guarantees numerically identical line breaks in the
+# editor and the PDF export pipeline.
+cosmic-text = { version = "0.12", optional = true }

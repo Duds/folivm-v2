@@ -1,0 +1,85 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      FOLIVM DEV - QUICK START                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🚀 FASTEST WAY TO START
+
+  Run this ONE command from the project root:
+
+    ./START_DEV.sh
+
+  Then open your browser to:
+
+    http://localhost:1420
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ WHAT YOU SHOULD SEE
+
+  • A white canvas with black text
+  • Test document with headings and paragraphs
+  • A blinking cursor (black line)
+  • Title "Welcome to Folivm" at the top
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⌨️ TRY THESE FIRST
+
+  1. Click in the document → cursor moves to click location
+  2. Type some text → characters appear on screen
+  3. Press backspace → delete character
+  4. Use arrow keys → move cursor around
+  5. Shift+arrows → select text
+  6. Ctrl+Z → undo your changes
+  7. Shift+click → extend selection
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 WHAT'S WORKING
+
+  ✓ Load documents
+  ✓ Type text (all characters)
+  ✓ Backspace / Delete
+  ✓ Cursor positioning
+  ✓ Text selection
+  ✓ Undo / Redo
+  ✓ IME input (paste works)
+  ✓ Layout with cosmic-text
+  ✓ Device pixel ratio handling
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⏳ WHAT'S STILL TODO
+
+  • Actual font rendering (using placeholder monospace)
+  • Accurate glyph offset tracking
+  • Selection highlighting (basic only)
+  • Multi-line support
+  • Image rendering
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 MANUAL COMMANDS (If START_DEV.sh doesn't work)
+
+  Terminal 1: Build WASM
+    wasm-pack build crates/folivm-wasm --target web --dev
+
+  Terminal 2: Start dev server
+    cd shell && npm run dev
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 TIPS
+
+  • Hot reload works: Edit TypeScript files and see changes instantly
+  • Rust changes need rebuild: Stop and run START_DEV.sh again
+  • Check browser console (F12) if something goes wrong
+  • Close browser tab to stop dev server gracefully
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+For detailed instructions, see: DEV_INSTRUCTIONS.md
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    Ready? Run: ./START_DEV.sh                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝

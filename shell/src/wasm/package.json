@@ -1,0 +1,15 @@
+{
+  "name": "folivm-wasm",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "folivm_wasm_bg.wasm",
+    "folivm_wasm.js",
+    "folivm_wasm.d.ts"
+  ],
+  "main": "folivm_wasm.js",
+  "types": "folivm_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
